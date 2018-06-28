@@ -1,0 +1,23 @@
+{
+  "name": "@dwcore/channel",
+  "version": "0.1.1",
+  "description": "Library For Combining dwStreams Via Channels.",
+  "browser": {
+    "fs": false
+  },
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node test-browser.js && node test-node.js"
+  },
+  "dependencies": {
+    "@dwcore/eos": "dwcore/eos#master",
+    "once": "^1.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
